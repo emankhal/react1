@@ -1,0 +1,9 @@
+.active{
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 10px;
+}
+img{
+    width: 100%;
+    display: block;
+}

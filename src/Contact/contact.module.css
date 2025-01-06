@@ -1,0 +1,39 @@
+.contact{
+    padding: 70px 0 0 0;
+}
+input{
+    border-color: rgb(187, 187, 187);
+}
+input:focus{
+    outline: none;
+}
+.btn{
+    background-color: #1abc9c;
+    color: white;
+    transition: .6s;
+}
+.btn:hover{
+    background-color: #16a085;
+    color:white
+}
+.icone {
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.icone i::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 400%;
+    left:-150%;
+    top: 50%;
+    z-index: -1;
+    background-color: black;
+
+}
